@@ -12,6 +12,7 @@
   "type": "module",
   "dependencies": {
     "commander": "^12.0.0",
+    "openai": "^4.27.0",
     "sql-formatter": "^15.2.0"
   }
 }
