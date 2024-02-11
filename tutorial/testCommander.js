@@ -17,8 +17,6 @@ program.parse();
 
 const options = program.opts();
 
-// console.log(options)
-
 if(Object.keys(options).length == 0){
   program.help()
 }
@@ -30,3 +28,5 @@ if(!"output" in Object.keys(options)){
   console.log("ERROR: Missing output file")
   process.exit();
 }
+
+console.log(options)
